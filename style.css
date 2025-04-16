@@ -73,3 +73,19 @@ footer {
   font-size: 0.9rem;
   color: var(--accent);
 }
+/* Dark-Mode für Links und Footer */
+body.dark .menu a,
+body.dark footer {
+  color: var(--text-dark);
+}
+
+/* Dark-Mode für Akzenttext */
+body.dark .hero h2 {
+  color: var(--accent);
+}
+
+/* Optional: Dark Mode Button Hover */
+.mode-toggle:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
